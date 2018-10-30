@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.Core", "ZeyrekFramework.Core\ZeyrekFramework.Core.csproj", "{1FDB4302-CA27-4B80-8A63-0FE4354F032A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.DataAccess", "ZeyrekFramework.DataAccess\ZeyrekFramework.DataAccess.csproj", "{62ED6695-592A-4FAE-8E01-711167C27AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.Business", "ZeyrekFramework.Business\ZeyrekFramework.Business.csproj", "{3463FA83-AD2F-4F35-9BF5-85BB594083F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.Entities", "ZeyrekFramework.Entities\ZeyrekFramework.Entities.csproj", "{2325B51A-D4BE-48F8-9194-2194F02BC85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.Bot", "ZeyrekFramework.Bot\ZeyrekFramework.Bot.csproj", "{AE0C4927-6E45-4090-B766-58CDFA3FFD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.DataAccess.Tests", "ZeyrekFramework.DataAccess.Tests\ZeyrekFramework.DataAccess.Tests.csproj", "{D7931D83-AA42-4E95-A0A2-D46EAAB53D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeyrekFramework.Business.Tests", "ZeyrekFramework.Business.Tests\ZeyrekFramework.Business.Tests.csproj", "{1B703BE2-33B6-43EB-AD65-527FB3F10A6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FDB4302-CA27-4B80-8A63-0FE4354F032A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDB4302-CA27-4B80-8A63-0FE4354F032A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDB4302-CA27-4B80-8A63-0FE4354F032A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDB4302-CA27-4B80-8A63-0FE4354F032A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62ED6695-592A-4FAE-8E01-711167C27AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62ED6695-592A-4FAE-8E01-711167C27AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62ED6695-592A-4FAE-8E01-711167C27AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62ED6695-592A-4FAE-8E01-711167C27AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3463FA83-AD2F-4F35-9BF5-85BB594083F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3463FA83-AD2F-4F35-9BF5-85BB594083F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3463FA83-AD2F-4F35-9BF5-85BB594083F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3463FA83-AD2F-4F35-9BF5-85BB594083F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2325B51A-D4BE-48F8-9194-2194F02BC85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2325B51A-D4BE-48F8-9194-2194F02BC85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2325B51A-D4BE-48F8-9194-2194F02BC85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2325B51A-D4BE-48F8-9194-2194F02BC85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0C4927-6E45-4090-B766-58CDFA3FFD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0C4927-6E45-4090-B766-58CDFA3FFD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0C4927-6E45-4090-B766-58CDFA3FFD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0C4927-6E45-4090-B766-58CDFA3FFD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7931D83-AA42-4E95-A0A2-D46EAAB53D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7931D83-AA42-4E95-A0A2-D46EAAB53D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7931D83-AA42-4E95-A0A2-D46EAAB53D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7931D83-AA42-4E95-A0A2-D46EAAB53D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B703BE2-33B6-43EB-AD65-527FB3F10A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B703BE2-33B6-43EB-AD65-527FB3F10A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B703BE2-33B6-43EB-AD65-527FB3F10A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B703BE2-33B6-43EB-AD65-527FB3F10A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18785B00-7ABB-4DCB-832C-B9CC4600FF7F}
+	EndGlobalSection
+EndGlobal
